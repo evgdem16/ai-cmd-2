@@ -27,13 +27,13 @@ HELP_TEXT = """
 [bold blue]Available commands[/bold blue]
 
 [bold cyan]Dialog management[/bold cyan]
-  [yellow]/new [name][/yellow]           Create a new dialog (optional name)
+  [yellow]/new <name>[/yellow]           Create a new dialog (optional name)
   [yellow]/open <name>[/yellow]          Open an existing dialog
   [yellow]/switch <name>[/yellow]        Switch to another dialog (saves current)
   [yellow]/list[/yellow]                 List all dialogs
   [yellow]/delete <name>[/yellow]        Delete a dialog
   [yellow]/search <query>[/yellow]       Search through all dialog history
-  [yellow]/history [n][/yellow]          Show last N messages in current dialog
+  [yellow]/history <n>[/yellow]          Show last N messages in current dialog
   [yellow]/stats[/yellow]                Show statistics for current dialog
 
 [bold cyan]System prompts[/bold cyan]
@@ -54,9 +54,9 @@ HELP_TEXT = """
   [yellow]/rag save <dir>[/yellow]       Save code blocks from dialog to directory
 
 [bold cyan]Export[/bold cyan]
-  [yellow]/export html [path][/yellow]   Export dialog to HTML
-  [yellow]/export pdf [path][/yellow]    Export dialog to PDF
-  [yellow]/export doc [path][/yellow]    Export dialog to DOCX
+  [yellow]/export html <path>[/yellow]   Export dialog to HTML
+  [yellow]/export pdf <path>[/yellow]    Export dialog to PDF
+  [yellow]/export doc <path>[/yellow]    Export dialog to DOCX
 
 [bold cyan]Interface[/bold cyan]
   [yellow]/clear[/yellow]                Clear the terminal screen
